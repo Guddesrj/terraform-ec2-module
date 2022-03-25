@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   ami  = "ami-04893cdb768d0f9ee"
   instance_type = var.instance_type
   subnet_id     = "subnet-08346268f1ea0ee31"
-  key_name      = var.key_name
+  key_name      = "terraform_demo"
   tags = {
     Name = "Terraform_git_Demo"
   }
