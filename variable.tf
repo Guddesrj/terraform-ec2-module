@@ -3,7 +3,3 @@ variable "instance_type" {
   default = "t2.small"
 }
 
-variable "key_name" {
-  type    = string
-  default = "terraform_demo"
-}
