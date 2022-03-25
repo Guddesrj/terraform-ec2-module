@@ -5,5 +5,5 @@ variable "instance_type" {
 
 variable "key_name" {
   type    = string
-  default = "terraform"_demo
+  default = "terraform_demo"
 }
