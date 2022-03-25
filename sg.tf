@@ -5,7 +5,7 @@ This is to create security group (port 80 inbound and all trafic outbound)
 resource "aws_security_group" "allow_git_http" {
   name        = "allow_git_http"
   description = "Allow http inbound traffic"
-  vpc_id      = "vpc-18824b73"
+  vpc_id      = "vpc-03a94c0864d481fda"
 
   ingress {
     description = "http from VPC"
