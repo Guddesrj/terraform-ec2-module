@@ -3,9 +3,9 @@
 resource "aws_instance" "web" {
   count = "2"
   ami  = "ami-04893cdb768d0f9ee"
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
   subnet_id     = "subnet-08346268f1ea0ee31"
-  key_name      = "terraform_demo"
+  key_name      = var.key_name
   tags = {
     Name = "Terraform_git_Demo"
   }
