@@ -2,8 +2,8 @@
 This is to create security group (port 80 inbound and all trafic outbound)
 */
 
-resource "aws_security_group" "allow_http" {
-  name        = "allow_http"
+resource "aws_security_group" "allow_2_http" {
+  name        = "allow_2_http"
   description = "Allow http inbound traffic"
   vpc_id      = "vpc-03a94c0864d481fda"
 
